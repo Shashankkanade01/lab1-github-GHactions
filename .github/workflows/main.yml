@@ -1,4 +1,4 @@
-name: shashank
+name: CI Demo
 
 on:
   push:
@@ -24,4 +24,4 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Script
-      run: python main.py
+      run: python main.py 
