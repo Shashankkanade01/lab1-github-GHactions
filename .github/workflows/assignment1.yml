@@ -3,7 +3,7 @@ name: Assignment1
 on:
   push:
     paths:
-      - 'C:\Users\Shashank Kanade\OneDrive\Desktop\devops\lab1-github-GHactions\student_note.md' 
+      - 'student_note.md' 
 jobs:
   print-info:
     runs-on: ubuntu-latest
